@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "home-work-web-8"
+version = "0.1.0"
+description = ""
+authors = ["AndriKovalchuk <andrii.kovalchuk90@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mongoengine = "^0.27.0"
+redis = "^5.0.1"
+redis-lru = "^0.1.2"
+pika = "^1.3.2"
+faker = "^23.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
